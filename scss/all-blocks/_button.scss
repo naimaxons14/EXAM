@@ -4,19 +4,19 @@
     font-size: 15px;
     line-height: 25px;
     border:1px solid transparent;
-    background-color: $yellow;
+    background-color: $orange;
     text-align: center;
     color: $white;
-    
+
 
     &:hover {
-        color: $yellow;
+        color: $orange;
         background-color: $white;
-        border: 1px solid $yellow;
+        border: 1px solid $orange;
     }
     &:active {
         color: $white;
-        background-color: $yellow;
+        background-color: $orange;
         opacity: 0.5;
     }
 }
