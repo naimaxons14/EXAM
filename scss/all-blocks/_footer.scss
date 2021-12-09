@@ -5,15 +5,11 @@
         align-items: center;
         padding-top: 102px;
         padding-bottom: 102px;
-
-
     }
     &__top {
         background-image: url("../image/footer-background.jpg");
         background-position: center;
         background-repeat: no-repeat;
-
-
     }
     &__heading{
         margin: 0;
@@ -26,6 +22,12 @@
         letter-spacing: -2.14286px;
         color: $white;
     }
+    &__appstore{
+        display: flex;
+    &__appstore{
+        margin-right: 20px;
+    }
+    }
     &__bottom {
         padding-top: 35px;
         padding-bottom: 32px;
@@ -36,22 +38,51 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
     &__link {
         display: inline-block;
         text-decoration: none;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $link;
+
     }
     &__item{
-        display: flex;
         margin: 0;
         padding: 0;
         margin-left: 59px;
         list-style: none;
     }
-        &__item + &__item {
+    &__item + &__item {
         margin-left: 32px;
+    }
+    &__link:hover {
+        color: $orange;
+    }
+    &__link:active{
+        opacity: 0.5;
+    }
+    .messengers{
+        display: flex;
+
+    &__img:hover path{
+        fill: $white;
 
     }
+  }
 }
+
+
 
 
 
@@ -62,5 +93,11 @@
             padding-top: 62px;
             padding-bottom: 62px;
         }
+        &__heading{
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 48px;
+            line-height: 48px;
     }
+   }
 }
